@@ -1,0 +1,48 @@
+@font-face {
+    font-family: 'TT Lakes Condensed';
+    src: url('TTLakesCondensed-Black.eot');
+    src: local('TT Lakes Condensed Black'), local('TTLakesCondensed-Black'),
+        url('TTLakesCondensed-Black.eot?#iefix') format('embedded-opentype'),
+        url('TTLakesCondensed-Black.woff') format('woff'),
+        url('TTLakesCondensed-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+    /* header -> Услуги и сервисы */
+}
+
+@font-face {
+    font-family: 'TT Lakes Condensed';
+    src: url('TTLakesCondensed-Regular.eot');
+    src: local('TT Lakes Condensed Regular'), local('TTLakesCondensed-Regular'),
+        url('TTLakesCondensed-Regular.eot?#iefix') format('embedded-opentype'),
+        url('TTLakesCondensed-Regular.woff') format('woff'),
+        url('TTLakesCondensed-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    /* header -> Оставить заявку / Статус ремонта */
+}
+
+@font-face {
+    font-family: 'TT Lakes Condensed';
+    src: url('TTLakesCondensed-LightItalic.eot');
+    src: local('TT Lakes Condensed Light Italic'), local('TTLakesCondensed-LightItalic'),
+        url('TTLakesCondensed-LightItalic.eot?#iefix') format('embedded-opentype'),
+        url('TTLakesCondensed-LightItalic.woff') format('woff'),
+        url('TTLakesCondensed-LightItalic.ttf') format('truetype');
+    font-weight: 300;
+    font-style: italic;
+    /* header -> Ремонтируемые бренды */
+}
+
+@font-face {
+    font-family: 'TT Lakes';
+    src: url('TTLakes-Regular.eot');
+    src: local('TT Lakes Regular'), local('TTLakes-Regular'),
+        url('TTLakes-Regular.eot?#iefix') format('embedded-opentype'),
+        url('TTLakes-Regular.woff') format('woff'),
+        url('TTLakes-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-style: italic;
+    /* p lorem*/
+}

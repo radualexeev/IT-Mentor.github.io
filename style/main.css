@@ -144,6 +144,13 @@ body {
         align-items: center;
     }
 
+    .header__content_left .header__item:nth-child(2),
+    .header__content_right .header__item:nth-child(1),
+    .header__content_right .header__item:nth-child(2),
+    .header__content_right .header__item:nth-child(3){
+        display: flex;
+    }
+
     .header__item {
         display: flex;
         justify-content: center;
@@ -196,12 +203,14 @@ body {
     .header__img-logo {
         width: 96px;
         height: 50px;
+        margin-left: 60px;
+        
     }
 
     .header__img-divider {
         width: 2px;
         height: 32px;
-        margin-left: 0;
+        margin-left: 5px;
     }    
 
     .header__content_right .header__img-divider {

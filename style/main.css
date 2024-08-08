@@ -1,2 +1,65 @@
 @import url(reset.css);
 @import url(fonts.css);
+
+.header {
+    width: 1120px;
+    height: 88px;
+    --color-rose: #FF3E79;
+}
+
+@media screen and (min-width: 320px) and (min-height: 597px) {
+    .header__nav {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        width: 320px;
+        height: auto;
+    }
+
+    .header__content {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        gap: 5px;
+        width: 320px;
+        height: auto;
+        padding: 24px 16px;
+    }
+
+    .header__item {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        background-color: var(--color-rose);
+        cursor: pointer;
+    }
+
+    .header__content .header__item:nth-child(2),
+    .header__content .header__item:nth-child(3) {
+        background: none;
+        width: none;
+        height: auto;
+        cursor: default;
+    }
+
+    .header__img {
+        width: 20px;
+        height: 20px;
+    }
+
+    .header__img-logo {
+        width: 96px;
+        height: 50px;
+        margin-left: 45px;
+    }
+
+    .header__img-divider {
+        width: 2px;
+        height: 32px;
+        margin-left: 43px;
+    }
+}

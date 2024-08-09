@@ -121,11 +121,11 @@ body {
     align-items: flex-start;
     width: var(--width-mobile);
     height: 1024px;
-    /* background-color: bisque; */
 
     position: absolute;
     top: 0;
     z-index: 2;
+    visibility: hidden;
 }
 
 .header__nav {
